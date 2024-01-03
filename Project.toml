@@ -1,0 +1,13 @@
+name = "DocumenterTest"
+uuid = "e24339fe-f7eb-4d40-889e-23c3c104130b"
+authors = ["Firas Al Chalabi"]
+version = "0.1.0"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
