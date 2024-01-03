@@ -8,7 +8,7 @@ makedocs(;
     authors="Firas Al Chalabi",
     repo="https://github.com/firasalchalabi/DocumenterTest.jl/blob/{commit}{path}#{line}",
     sitename="DocumenterTest.jl",
-    format=Documenter.HTML(;
+    format=Documenter.HTML(repolink = "https://firasalchalabi.github.io/DocumenterTest.jl";
         prettyurls=get(ENV, "CI", "false") == "true",
         canonical="https://firasalchalabi.github.io/DocumenterTest.jl",
         edit_link="main",
