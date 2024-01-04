@@ -22,3 +22,12 @@ function non_exported_func(x::Integer)
   println(x)
 
 end
+
+"""
+    new_func(x)
+
+Return x*x.
+"""
+function new_func(x)
+  x*x
+end
