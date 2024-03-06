@@ -16,6 +16,7 @@ Prints the integer x to stdout.
 
 # Arguments
  - `x::Integer`: the number to print to stdout.
+ - noarg
 """
 function non_exported_func(x::Integer)
 
